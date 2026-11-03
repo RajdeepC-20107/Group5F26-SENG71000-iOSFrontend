@@ -8,12 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		3A52E15F307187650073B36E /* Driver_KarmaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A52E15E307187650073B36E /* Driver_KarmaApp.swift */; };
-		3A52E161307187650073B36E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A52E160307187650073B36E /* ContentView.swift */; };
 		3A52E163307187670073B36E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A52E162307187670073B36E /* Assets.xcassets */; };
 		3A52E166307187670073B36E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A52E165307187670073B36E /* Preview Assets.xcassets */; };
 		3A52E170307187670073B36E /* Driver_KarmaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A52E16F307187670073B36E /* Driver_KarmaTests.swift */; };
 		3A52E17A307187670073B36E /* Driver_KarmaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A52E179307187670073B36E /* Driver_KarmaUITests.swift */; };
 		3A52E17C307187670073B36E /* Driver_KarmaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A52E17B307187670073B36E /* Driver_KarmaUITestsLaunchTests.swift */; };
+		3ACC70153099917200938694 /* TimeIntervalExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACC70093099917100938694 /* TimeIntervalExtensions.swift */; };
+		3ACC70163099917200938694 /* IntExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACC700A3099917100938694 /* IntExtensions.swift */; };
+		3ACC70173099917200938694 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ACC700C3099917100938694 /* Preview Assets.xcassets */; };
+		3ACC70183099917200938694 /* ScoreRing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACC70103099917100938694 /* ScoreRing.swift */; };
+		3ACC70193099917200938694 /* TrackMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACC70113099917100938694 /* TrackMapView.swift */; };
+		3ACC701A3099917200938694 /* StatTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACC70123099917100938694 /* StatTile.swift */; };
+		3ACC701B3099917200938694 /* DriverModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACC70143099917100938694 /* DriverModels.swift */; };
+		3ACC701F3099919500938694 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACC701C3099919500938694 /* LoginView.swift */; };
+		3ACC70203099919500938694 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACC701D3099919500938694 /* ProfileView.swift */; };
+		3ACC70213099919500938694 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACC701E3099919500938694 /* HomeView.swift */; };
+		3ACC7025309991A700938694 /* SessionDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACC7022309991A600938694 /* SessionDetailView.swift */; };
+		3ACC7026309991A700938694 /* AppealSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACC7023309991A600938694 /* AppealSheet.swift */; };
+		3ACC7027309991A700938694 /* RecordingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACC7024309991A700938694 /* RecordingView.swift */; };
+		3ACC7029309991EA00938694 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACC7028309991EA00938694 /* RootView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +49,6 @@
 /* Begin PBXFileReference section */
 		3A52E15B307187650073B36E /* Driver Karma.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Driver Karma.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A52E15E307187650073B36E /* Driver_KarmaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Driver_KarmaApp.swift; sourceTree = "<group>"; };
-		3A52E160307187650073B36E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3A52E162307187670073B36E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A52E165307187670073B36E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3A52E16B307187670073B36E /* Driver KarmaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Driver KarmaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +56,20 @@
 		3A52E175307187670073B36E /* Driver KarmaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Driver KarmaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A52E179307187670073B36E /* Driver_KarmaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Driver_KarmaUITests.swift; sourceTree = "<group>"; };
 		3A52E17B307187670073B36E /* Driver_KarmaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Driver_KarmaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3ACC70093099917100938694 /* TimeIntervalExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeIntervalExtensions.swift; sourceTree = "<group>"; };
+		3ACC700A3099917100938694 /* IntExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntExtensions.swift; sourceTree = "<group>"; };
+		3ACC700C3099917100938694 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3ACC70103099917100938694 /* ScoreRing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreRing.swift; sourceTree = "<group>"; };
+		3ACC70113099917100938694 /* TrackMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackMapView.swift; sourceTree = "<group>"; };
+		3ACC70123099917100938694 /* StatTile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatTile.swift; sourceTree = "<group>"; };
+		3ACC70143099917100938694 /* DriverModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriverModels.swift; sourceTree = "<group>"; };
+		3ACC701C3099919500938694 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		3ACC701D3099919500938694 /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		3ACC701E3099919500938694 /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		3ACC7022309991A600938694 /* SessionDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionDetailView.swift; sourceTree = "<group>"; };
+		3ACC7023309991A600938694 /* AppealSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppealSheet.swift; sourceTree = "<group>"; };
+		3ACC7024309991A700938694 /* RecordingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordingView.swift; sourceTree = "<group>"; };
+		3ACC7028309991EA00938694 /* RootView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +100,10 @@
 		3A52E152307187650073B36E = {
 			isa = PBXGroup;
 			children = (
+				3ACC70133099917100938694 /* Models */,
+				3ACC700B3099917100938694 /* Preview Content */,
+				3ACC70083099917100938694 /* Utils */,
+				3ACC700D3099917100938694 /* Views */,
 				3A52E15D307187650073B36E /* Driver Karma */,
 				3A52E16E307187670073B36E /* Driver KarmaTests */,
 				3A52E178307187670073B36E /* Driver KarmaUITests */,
@@ -95,7 +125,6 @@
 			isa = PBXGroup;
 			children = (
 				3A52E15E307187650073B36E /* Driver_KarmaApp.swift */,
-				3A52E160307187650073B36E /* ContentView.swift */,
 				3A52E162307187670073B36E /* Assets.xcassets */,
 				3A52E164307187670073B36E /* Preview Content */,
 			);
@@ -125,6 +154,68 @@
 				3A52E17B307187670073B36E /* Driver_KarmaUITestsLaunchTests.swift */,
 			);
 			path = "Driver KarmaUITests";
+			sourceTree = "<group>";
+		};
+		3ACC70083099917100938694 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				3ACC700A3099917100938694 /* IntExtensions.swift */,
+				3ACC70093099917100938694 /* TimeIntervalExtensions.swift */,
+			);
+			name = Utils;
+			path = "Driver Karma/Utils";
+			sourceTree = "<group>";
+		};
+		3ACC700B3099917100938694 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3ACC700C3099917100938694 /* Preview Assets.xcassets */,
+			);
+			name = "Preview Content";
+			path = "Driver Karma/Preview Content";
+			sourceTree = "<group>";
+		};
+		3ACC700D3099917100938694 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3ACC700E3099917100938694 /* Screens */,
+				3ACC700F3099917100938694 /* Components */,
+			);
+			name = Views;
+			path = "Driver Karma/Views";
+			sourceTree = "<group>";
+		};
+		3ACC700E3099917100938694 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				3ACC7028309991EA00938694 /* RootView.swift */,
+				3ACC7023309991A600938694 /* AppealSheet.swift */,
+				3ACC701E3099919500938694 /* HomeView.swift */,
+				3ACC701C3099919500938694 /* LoginView.swift */,
+				3ACC701D3099919500938694 /* ProfileView.swift */,
+				3ACC7024309991A700938694 /* RecordingView.swift */,
+				3ACC7022309991A600938694 /* SessionDetailView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		3ACC700F3099917100938694 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				3ACC70123099917100938694 /* StatTile.swift */,
+				3ACC70103099917100938694 /* ScoreRing.swift */,
+				3ACC70113099917100938694 /* TrackMapView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		3ACC70133099917100938694 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3ACC70143099917100938694 /* DriverModels.swift */,
+			);
+			name = Models;
+			path = "Driver Karma/Models";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +323,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A52E166307187670073B36E /* Preview Assets.xcassets in Resources */,
+				3ACC70173099917200938694 /* Preview Assets.xcassets in Resources */,
 				3A52E163307187670073B36E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,8 +349,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A52E161307187650073B36E /* ContentView.swift in Sources */,
+				3ACC70193099917200938694 /* TrackMapView.swift in Sources */,
+				3ACC70203099919500938694 /* ProfileView.swift in Sources */,
+				3ACC70163099917200938694 /* IntExtensions.swift in Sources */,
+				3ACC7025309991A700938694 /* SessionDetailView.swift in Sources */,
+				3ACC7029309991EA00938694 /* RootView.swift in Sources */,
+				3ACC701F3099919500938694 /* LoginView.swift in Sources */,
+				3ACC70213099919500938694 /* HomeView.swift in Sources */,
+				3ACC701A3099917200938694 /* StatTile.swift in Sources */,
+				3ACC70153099917200938694 /* TimeIntervalExtensions.swift in Sources */,
+				3ACC701B3099917200938694 /* DriverModels.swift in Sources */,
+				3ACC7027309991A700938694 /* RecordingView.swift in Sources */,
 				3A52E15F307187650073B36E /* Driver_KarmaApp.swift in Sources */,
+				3ACC7026309991A700938694 /* AppealSheet.swift in Sources */,
+				3ACC70183099917200938694 /* ScoreRing.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +529,7 @@
 				DEVELOPMENT_TEAM = 99SH3BZSGQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -455,6 +560,7 @@
 				DEVELOPMENT_TEAM = 99SH3BZSGQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

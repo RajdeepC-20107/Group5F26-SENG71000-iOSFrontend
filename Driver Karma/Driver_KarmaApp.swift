@@ -11,7 +11,12 @@ import SwiftUI
 struct Driver_KarmaApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RootView(
+                profile: .preview,
+                overallScore: 87,
+                lastSession: .preview,
+                live: .preview
+            )
         }
     }
 }
