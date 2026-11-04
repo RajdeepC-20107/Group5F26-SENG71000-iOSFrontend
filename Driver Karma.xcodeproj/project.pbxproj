@@ -13,11 +13,23 @@
 		3A52E170307187670073B36E /* Driver_KarmaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A52E16F307187670073B36E /* Driver_KarmaTests.swift */; };
 		3A52E17A307187670073B36E /* Driver_KarmaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A52E179307187670073B36E /* Driver_KarmaUITests.swift */; };
 		3A52E17C307187670073B36E /* Driver_KarmaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A52E17B307187670073B36E /* Driver_KarmaUITestsLaunchTests.swift */; };
+		3ABB17AF309AD56E009FC938 /* ReferenceDataCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABB17AD309AD56E009FC938 /* ReferenceDataCache.swift */; };
+		3ABB17C8309AD904009FC938 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABB17C1309AD903009FC938 /* HTTPClient.swift */; };
+		3ABB17C9309AD904009FC938 /* DriverKarmaModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABB17C2309AD903009FC938 /* DriverKarmaModels.swift */; };
+		3ABB17CA309AD904009FC938 /* LoginMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABB17C3309AD903009FC938 /* LoginMethod.swift */; };
+		3ABB17CB309AD904009FC938 /* GetTrackMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABB17C4309AD904009FC938 /* GetTrackMethod.swift */; };
+		3ABB17CC309AD904009FC938 /* UploadTrackMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABB17C5309AD904009FC938 /* UploadTrackMethod.swift */; };
+		3ABB17CD309AD904009FC938 /* DriverKarmaAPIConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABB17C6309AD904009FC938 /* DriverKarmaAPIConfiguration.swift */; };
+		3ABB17CE309AD904009FC938 /* GetProfileMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABB17C7309AD904009FC938 /* GetProfileMethod.swift */; };
+		3ABB17D0309AD92D009FC938 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABB17CF309AD92D009FC938 /* NetworkError.swift */; };
+		3ABB17D1309AD943009FC938 /* TrackMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACC70113099917100938694 /* TrackMapView.swift */; };
+		3ABB17D3309ADC38009FC938 /* DemoEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABB17D2309ADC38009FC938 /* DemoEnvironment.swift */; };
+		3ABB17D5309ADC4F009FC938 /* DemoRootContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABB17D4309ADC4F009FC938 /* DemoRootContainer.swift */; };
+		3ABB17D9309ADCD9009FC938 /* GetLastTrackMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ABB17D8309ADCD9009FC938 /* GetLastTrackMethod.swift */; };
 		3ACC70153099917200938694 /* TimeIntervalExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACC70093099917100938694 /* TimeIntervalExtensions.swift */; };
 		3ACC70163099917200938694 /* IntExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACC700A3099917100938694 /* IntExtensions.swift */; };
 		3ACC70173099917200938694 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ACC700C3099917100938694 /* Preview Assets.xcassets */; };
 		3ACC70183099917200938694 /* ScoreRing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACC70103099917100938694 /* ScoreRing.swift */; };
-		3ACC70193099917200938694 /* TrackMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACC70113099917100938694 /* TrackMapView.swift */; };
 		3ACC701A3099917200938694 /* StatTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACC70123099917100938694 /* StatTile.swift */; };
 		3ACC701B3099917200938694 /* DriverModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACC70143099917100938694 /* DriverModels.swift */; };
 		3ACC701F3099919500938694 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACC701C3099919500938694 /* LoginView.swift */; };
@@ -56,6 +68,18 @@
 		3A52E175307187670073B36E /* Driver KarmaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Driver KarmaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A52E179307187670073B36E /* Driver_KarmaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Driver_KarmaUITests.swift; sourceTree = "<group>"; };
 		3A52E17B307187670073B36E /* Driver_KarmaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Driver_KarmaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3ABB17AD309AD56E009FC938 /* ReferenceDataCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReferenceDataCache.swift; sourceTree = "<group>"; };
+		3ABB17C1309AD903009FC938 /* HTTPClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		3ABB17C2309AD903009FC938 /* DriverKarmaModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriverKarmaModels.swift; sourceTree = "<group>"; };
+		3ABB17C3309AD903009FC938 /* LoginMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginMethod.swift; sourceTree = "<group>"; };
+		3ABB17C4309AD904009FC938 /* GetTrackMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetTrackMethod.swift; sourceTree = "<group>"; };
+		3ABB17C5309AD904009FC938 /* UploadTrackMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadTrackMethod.swift; sourceTree = "<group>"; };
+		3ABB17C6309AD904009FC938 /* DriverKarmaAPIConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriverKarmaAPIConfiguration.swift; sourceTree = "<group>"; };
+		3ABB17C7309AD904009FC938 /* GetProfileMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetProfileMethod.swift; sourceTree = "<group>"; };
+		3ABB17CF309AD92D009FC938 /* NetworkError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		3ABB17D2309ADC38009FC938 /* DemoEnvironment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoEnvironment.swift; sourceTree = "<group>"; };
+		3ABB17D4309ADC4F009FC938 /* DemoRootContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoRootContainer.swift; sourceTree = "<group>"; };
+		3ABB17D8309ADCD9009FC938 /* GetLastTrackMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetLastTrackMethod.swift; sourceTree = "<group>"; };
 		3ACC70093099917100938694 /* TimeIntervalExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeIntervalExtensions.swift; sourceTree = "<group>"; };
 		3ACC700A3099917100938694 /* IntExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntExtensions.swift; sourceTree = "<group>"; };
 		3ACC700C3099917100938694 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -100,6 +124,7 @@
 		3A52E152307187650073B36E = {
 			isa = PBXGroup;
 			children = (
+				3ABB17AC309AD52A009FC938 /* Network */,
 				3ACC70133099917100938694 /* Models */,
 				3ACC700B3099917100938694 /* Preview Content */,
 				3ACC70083099917100938694 /* Utils */,
@@ -156,6 +181,23 @@
 			path = "Driver KarmaUITests";
 			sourceTree = "<group>";
 		};
+		3ABB17AC309AD52A009FC938 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				3ABB17CF309AD92D009FC938 /* NetworkError.swift */,
+				3ABB17C6309AD904009FC938 /* DriverKarmaAPIConfiguration.swift */,
+				3ABB17C2309AD903009FC938 /* DriverKarmaModels.swift */,
+				3ABB17C7309AD904009FC938 /* GetProfileMethod.swift */,
+				3ABB17D8309ADCD9009FC938 /* GetLastTrackMethod.swift */,
+				3ABB17C4309AD904009FC938 /* GetTrackMethod.swift */,
+				3ABB17C1309AD903009FC938 /* HTTPClient.swift */,
+				3ABB17C3309AD903009FC938 /* LoginMethod.swift */,
+				3ABB17C5309AD904009FC938 /* UploadTrackMethod.swift */,
+				3ABB17AD309AD56E009FC938 /* ReferenceDataCache.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 		3ACC70083099917100938694 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
@@ -188,6 +230,8 @@
 		3ACC700E3099917100938694 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				3ABB17D4309ADC4F009FC938 /* DemoRootContainer.swift */,
+				3ABB17D2309ADC38009FC938 /* DemoEnvironment.swift */,
 				3ACC7028309991EA00938694 /* RootView.swift */,
 				3ACC7023309991A600938694 /* AppealSheet.swift */,
 				3ACC701E3099919500938694 /* HomeView.swift */,
@@ -349,19 +393,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3ACC70193099917200938694 /* TrackMapView.swift in Sources */,
+				3ABB17D1309AD943009FC938 /* TrackMapView.swift in Sources */,
 				3ACC70203099919500938694 /* ProfileView.swift in Sources */,
+				3ABB17D3309ADC38009FC938 /* DemoEnvironment.swift in Sources */,
+				3ABB17CC309AD904009FC938 /* UploadTrackMethod.swift in Sources */,
+				3ABB17CA309AD904009FC938 /* LoginMethod.swift in Sources */,
+				3ABB17D9309ADCD9009FC938 /* GetLastTrackMethod.swift in Sources */,
 				3ACC70163099917200938694 /* IntExtensions.swift in Sources */,
 				3ACC7025309991A700938694 /* SessionDetailView.swift in Sources */,
 				3ACC7029309991EA00938694 /* RootView.swift in Sources */,
 				3ACC701F3099919500938694 /* LoginView.swift in Sources */,
 				3ACC70213099919500938694 /* HomeView.swift in Sources */,
 				3ACC701A3099917200938694 /* StatTile.swift in Sources */,
+				3ABB17D0309AD92D009FC938 /* NetworkError.swift in Sources */,
 				3ACC70153099917200938694 /* TimeIntervalExtensions.swift in Sources */,
 				3ACC701B3099917200938694 /* DriverModels.swift in Sources */,
+				3ABB17D5309ADC4F009FC938 /* DemoRootContainer.swift in Sources */,
 				3ACC7027309991A700938694 /* RecordingView.swift in Sources */,
+				3ABB17CB309AD904009FC938 /* GetTrackMethod.swift in Sources */,
+				3ABB17AF309AD56E009FC938 /* ReferenceDataCache.swift in Sources */,
+				3ABB17C8309AD904009FC938 /* HTTPClient.swift in Sources */,
 				3A52E15F307187650073B36E /* Driver_KarmaApp.swift in Sources */,
 				3ACC7026309991A700938694 /* AppealSheet.swift in Sources */,
+				3ABB17CE309AD904009FC938 /* GetProfileMethod.swift in Sources */,
+				3ABB17C9309AD904009FC938 /* DriverKarmaModels.swift in Sources */,
+				3ABB17CD309AD904009FC938 /* DriverKarmaAPIConfiguration.swift in Sources */,
 				3ACC70183099917200938694 /* ScoreRing.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
