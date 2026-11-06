@@ -36,7 +36,7 @@ struct RootView: View {
                 RecordingView(live: live, onStop: { showRecording = false })
             }
         } else {
-            LoginView(onLogin: { isLoggedIn = true },
+            LoginView(onLogin: { _, _ in isLoggedIn = true },
                       onSignUp: { isLoggedIn = true })
         }
     }

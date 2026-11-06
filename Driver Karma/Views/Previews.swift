@@ -1,7 +1,8 @@
 import SwiftUI
 
 #Preview("Login") {
-    LoginView(onLogin: {}, onSignUp: {})
+   LoginView(onLogin: { _, _ in }, onSignUp: {})
+
 }
 
 #Preview("Home") {
